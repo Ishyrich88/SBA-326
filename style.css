@@ -7,3 +7,6 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+/* Light Blue for both Rectangles */
+.bg-light-blue {
+    background-color: hsl(228, 56%, 26%);
