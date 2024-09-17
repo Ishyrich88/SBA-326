@@ -10,3 +10,72 @@ body {
 /* Light Blue for both Rectangles */
 .bg-light-blue {
     background-color: hsl(228, 56%, 26%);
+
+}
+
+/* Highlight Text */
+.highlight {
+    color: hsl(243, 100%, 93%);
+}
+
+/* Smaller Square Menu Icons with Rounded Edges */
+.menu-icon {
+    width: 45px;
+    height: 45px;
+}
+
+/* Progress Bar with Gradient */
+.storage-used {
+    background: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    height: 15px;
+    border-radius: 20px;
+    width: calc((815 / 1000) * 100%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* Circle Indicator in Progress Bar */
+.circle-indicator {
+    background-color: white;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+/* Remaining Storage Talking Box with Rounded Rectangle */
+.bubble {
+    top: -20px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Talking Box Arrow */
+.bubble-arrow {
+    position: absolute;
+    bottom: -8px;
+    left: calc(100% - 20px);
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #f8f9fa;
+}
+
+/* Center the footer at the bottom of the viewport */
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        width: 40px;
+        height: 40px;
+    }
+}
